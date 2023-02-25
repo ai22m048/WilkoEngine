@@ -1,0 +1,41 @@
+What is the difference between git and github?
+
+Git is a version control system, a tool to manage your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. It provides other features such as bug tracking, feature requests, task management, and wikis for every project.
+
+Name 3 benefits of a version control system:
+
+1. Improved collaboration: Version control systems help teams collaborate more efficiently by allowing them to share and work on code concurrently. 
+
+2. Easier debugging: Version control systems provide visibility into the history of changes, which makes it easier to debug and identify errors.
+
+3. Increased security: Version control systems provide a secure backup of all your code, which can be used to quickly restore any changes that might have gone wrong.
+
+Name 3 alternatives to git:
+
+1. Mercurial
+2. Apache Subversion (SVN)
+3. BitKeeper
+
+Name 2 differences between git and other version control systems:
+
+1. Git allows users to work offline and commit changes when they are back online, while other version control systems require users to always be connected.
+
+2. Git is distributed, meaning each user has a complete copy of the repository, while other version control systems are centralized and require a single server to host the repository.
+
+Name known issues related to game engines (Unreal, Unity) and version control systems:
+
+1. Merging large files can be difficult with version control systems, as the files often contain binary data that is not easily merged.
+
+2. Unreal Engine projects can become corrupted if the user does not properly manage their file structure.
+
+3. Unity projects can be difficult to manage with version control systems due to the large number of dependencies.
+
+4. Unreal Engine can be slow to compile, leading to long wait times for builds.
+
+5. The individual files for a Unity project can be difficult to track and manage in version control systems.
+
+6. Unreal Engine can suffer from long loading times when loading large levels.
+
+7. Unity projects often require manual intervention to properly synchronize with version control systems.
+
+8. Unreal Engine can be difficult to debug in certain situations, as the engine often has a complex internal structure.
