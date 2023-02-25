@@ -1,0 +1,3 @@
+[submodule "WilkoEngine/vendor/spdlog"]
+	path = WilkoEngine/vendor/spdlog
+	url = https://github.com/gabime/spdlog

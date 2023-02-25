@@ -30,10 +30,16 @@
     <ClInclude Include="EntryPoint.h">
       <Filter>Quelldateien\Engine</Filter>
     </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Quelldateien\Engine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp">
       <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Quelldateien\Engine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
