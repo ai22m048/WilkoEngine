@@ -46,6 +46,7 @@
     <ClInclude Include="Core.h" />
     <ClInclude Include="EntryPoint.h" />
     <ClInclude Include="Log.h" />
+    <ClInclude Include="Test.h" />
     <ClInclude Include="WilkoEngine.h" />
     <ClInclude Include="vendor\spdlog\bench\utils.h">
       <Filter>vendor\spdlog\bench</Filter>
@@ -369,6 +370,7 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Test.cpp" />
     <ClCompile Include="vendor\spdlog\bench\async_bench.cpp">
       <Filter>vendor\spdlog\bench</Filter>
     </ClCompile>

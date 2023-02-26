@@ -1,0 +1,29 @@
+Describe a logging system with your own words:
+
+Logging system is a system used to record events and activities that happen within a software system, computer system, or organization. It can record information such as user activities, system errors, security events, and performance data. Logging systems can be used to analyze system performance, detect potential problems, and trace malicious activities. Logging systems typically store data in text or binary files, or databases, and can be used to generate reports and alert users of potential issues.
+
+What is the difference between git submodules and git subtrees?
+
+Git submodules are used to keep a Git repository as a sub-directory of another Git repository. It is typically used to keep a development version of a project in a separate repository while using the main repository for production code. Git submodules are used to track changes to and manage dependencies between several related projects.
+
+Git subtrees are used to split a single repository into multiple repositories while still maintaining a single repository. It allows developers to work on separate parts of the repository while keeping them linked together. It is often used to break a large repository into smaller, more manageable chunks.
+
+In summary, git submodules are used to manage dependencies between related projects while git subtrees are used to break down a large repository into smaller, more manageable chunks.
+
+What is a build system in C++? Name 3 build systems:
+
+Build systems in C++ are used to automate the compilation, linking, and packaging of source code into an executable program. 
+
+Common build systems in C++ are 
+- CMake, 
+- Ninja and 
+- Make.
+
+What is a package manager in C++? Name 3 package manager:
+
+A package manager in C++ is a tool that allows developers to install, manage, and update third-party libraries and dependencies for their C++ projects.
+
+Popular package managers for C++ are: 
+- Conan, 
+- Vcpkg,
+- Hunter.

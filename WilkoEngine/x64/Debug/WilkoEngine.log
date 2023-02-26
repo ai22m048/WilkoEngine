@@ -1,0 +1,5 @@
+﻿  Application.cpp
+C:\data\projects\cpp\engine\WilkoEngine\WilkoEngine\Core.h(10,1): fatal  error C1189: #error:  WilkoEngine only support Windows!
+  Log.cpp
+C:\data\projects\cpp\engine\WilkoEngine\WilkoEngine\Core.h(10,1): fatal  error C1189: #error:  WilkoEngine only support Windows!
+  Code wird generiert...
