@@ -1,0 +1,17 @@
+What is the difference between a dynamic linked library and a static library?
+
+A dynamic linked library (DLL) is a library of executable functions or data that can be used by an application. It is linked to the application at run-time, allowing the application to call functions in the DLL and access its data. A static library is a collection of code and data that is linked into an executable when it is created. It is not linked at run-time, so the executable must contain all the code it needs.
+
+Describe a logging system with your own words:
+
+A logging system is a system that collects, stores, and organizes log data from various sources. This data is typically used for monitoring, troubleshooting, and analyzing the performance of software, hardware, and networks. Logs can be stored in a variety of formats and can provide detailed information about system activities, including errors and warnings. Logs can also be used to detect security breaches and investigate suspicious activities.
+
+What is a Design Pattern?
+
+A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations.
+
+Name and describe 2 Design Patterns (except façade or adapter):
+
+1. Singleton Pattern: The Singleton Pattern is a design pattern that ensures that only one instance of a class can be created. This pattern is used to ensure that resources are used efficiently and that only one instance of a given class will exist at any given time. This can be useful when it is necessary to ensure that only one object of a given type is used throughout the lifetime of an application.
+
+2. Observer Pattern: The Observer Pattern is a design pattern that allows an object to be notified when another object changes its state. This pattern is used to ensure that when one object changes its state, the other objects that are observing it are notified so that they can react accordingly. This pattern can be used to ensure that multiple objects remain synchronized with each other.

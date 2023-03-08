@@ -26,14 +26,13 @@ project "WilkoEngine"
 
 	includedirs
 	{
-		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "latest"
+		systemversion "10.0.22000.0"
 
 		defines
 		{
@@ -75,7 +74,7 @@ project "Sandbox"
 	includedirs
 	{
 		"WilkoEngine/vendor/spdlog/include",
-		"WilkoEngine/src"
+		"WilkoEngine"
 	}
 
 	links
@@ -86,7 +85,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "latest"
+		systemversion "10.0.22000.0"
 
 		defines
 		{
