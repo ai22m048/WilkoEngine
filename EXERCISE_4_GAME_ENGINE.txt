@@ -1,0 +1,26 @@
+What is a precompiled header? Name pros and cons:
+A precompiled header is a special type of header file in C/C++ that is compiled and stored in memory before any other source code in a program is compiled. This is done to speed up compilation time by avoiding the need to recompile the header files each time a source file is compiled.
+
+Pros:
+- Improved compilation speed
+- Reuse of code across multiple source files
+- Reduced compilation time
+
+Cons:
+- More memory usage
+- Harder to debug
+- Increase in size of executables
+
+Describe the layer of abstraction with your own words:
+Layer of abstraction is a concept that provides an interface between two different systems or components in order to hide the complexity of one system from the other. 
+The interface provides a simplified view of the lower-level system, allowing the higher-level system to interact with the lower-level system without needing to know its internal details. 
+This can make it easier to develop programs and also to maintain them.
+
+
+Name the SOLID principles and describe them briefly
+SOLID is an acronym for five object-oriented design principles:
+Single Responsibility Principle: A class should have one, and only one, reason to change.
+Open/Closed Principle: A class should be open for extension, but closed for modification.
+Liskov Substitution Principle: Subclasses should be able to be used in place of their superclasses without the client noticing any difference.
+Interface Segregation Principle: Multiple, smaller, specific interfaces are better than one large, general-purpose interface.
+Dependency Inversion Principle: High-level modules should not depend on low-level modules; both should depend on abstractions.

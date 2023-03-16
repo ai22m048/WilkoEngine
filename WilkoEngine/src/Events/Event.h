@@ -1,5 +1,6 @@
 #pragma once
 
+#include "wepch.h"
 #include "Core.h"
 
 namespace WilkoEngine {

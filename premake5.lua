@@ -10,6 +10,12 @@ workspace "WilkoEngine"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "WilkoEngine/vendor/GLFW/include"
+
+include "WilkoEngine/vendor/GLFW"
+
 project "WilkoEngine"
 	location "WilkoEngine"
 	kind "SharedLib"
@@ -30,7 +36,14 @@ project "WilkoEngine"
 	includedirs
 	{
 		"%{prj.name}/src",
-		"%{prj.name}/vendor/spdlog/include"
+		"%{prj.name}/vendor/spdlog/include",
+		"%{IncludeDir.GLFW}"
+	}
+
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"
