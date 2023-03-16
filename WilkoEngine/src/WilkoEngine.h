@@ -1,13 +1,11 @@
 #pragma once
 
-// For use by WilkoEngine applications
+// For use by Hazel applications
 
-#include <stdio.h>
 #include "Application.h"
+#include "Layer.h"
 #include "Log.h"
 
-// --- Entry Point ----------------------
-
+// ---Entry Point---------------------
 #include "EntryPoint.h"
-
-// --------------------------------------
+// -----------------------------------
