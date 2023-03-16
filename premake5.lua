@@ -18,6 +18,9 @@ project "WilkoEngine"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "wepch.h"
+	pchsource "WilkoEngine/src/wepch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",

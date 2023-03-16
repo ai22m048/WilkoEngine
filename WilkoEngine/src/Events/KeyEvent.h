@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace WilkoEngine {
 
 	class WILKO_API KeyEvent : public Event

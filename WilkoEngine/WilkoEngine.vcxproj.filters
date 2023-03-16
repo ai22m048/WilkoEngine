@@ -23,9 +23,11 @@
     </ClInclude>
     <ClInclude Include="src\Log.h" />
     <ClInclude Include="src\WilkoEngine.h" />
+    <ClInclude Include="src\wepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\Log.cpp" />
+    <ClCompile Include="src\wepch.cpp" />
   </ItemGroup>
 </Project>

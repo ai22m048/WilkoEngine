@@ -2,9 +2,6 @@
 
 #include "Core.h"
 
-#include <string>
-#include <functional>
-
 namespace WilkoEngine {
 
 	// Events in WilkoEngine are currently blocking, meaning when an event occurs it

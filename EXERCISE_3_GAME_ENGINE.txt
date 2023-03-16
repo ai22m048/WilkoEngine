@@ -6,6 +6,10 @@ Describe a logging system with your own words:
 
 A logging system is a system that collects, stores, and organizes log data from various sources. This data is typically used for monitoring, troubleshooting, and analyzing the performance of software, hardware, and networks. Logs can be stored in a variety of formats and can provide detailed information about system activities, including errors and warnings. Logs can also be used to detect security breaches and investigate suspicious activities.
 
+Describe an event system with your own words:
+
+An event system is a programming construct that allows for the creation of events and the handling of those events by functions. It allows for dynamic behavior in the program, as events can be raised and handled on the fly. Events are usually represented by a string, integer, or boolean value, and a function (or "event handler") is associated with each event. When an event occurs, the associated event handler is then called. The event handler can then take any necessary action to respond to the event, such as updating data, displaying a message, or performing some other task.
+
 What is a Design Pattern?
 
 A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations.

@@ -1,3 +1,4 @@
+#include "wepch.h"
 #include "WilkoEngine.h"
 
 class Sandbox : public WilkoEngine::Application
